@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@1,700&family=Averia+Libre:ital@1&family=Comfortaa:wght@400;600;700&family=Inter&display=swap');
+
+
+
+body {
+    font-family: 'Comforta', sans-serif;
+    background-color:#E5E6E5;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color:#000;
+}
+
+.container {
+    max-width: 950px;
+    padding: 0 50px;
+    margin: 0 auto;
+    
+}
+
+/* Header */
+
+.header {
+    padding-top: 30px;
+    background-color: #E5E6E5;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+ }
+
+.header-nav__btn {
+   border: none;
+   opacity: 0.5;
+   display: flex;
+    padding-left: 20px;
+    background-color: #E5E6E5;
+}
+
+.header-btn {
+    background-color: initial;
+    border: initial;
+    display: block;
+    background-color: #FBD242;
+    padding: 5px 30px 5px 30px;
+    border-radius: 10px;
+    color: #000;
+    text-decoration: none;
+    width: 210px;
+    margin-top: 50px;
+    z-index: 9999;
+    font-family: 'Comfortaa';
+    font-weight: 700;
+}
+
+
+/* Nav */
+
+
+/* Header content */
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+
+
+.header-content {
+    max-width: 433px;
+    line-height: 0.8;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+
+.header-heading {
+   
+    font-weight: 700;
+    font-size: 60px;
+    font-family: "Arsenal" ;
+    z-index: 9999;
+    position: relative;
+    text-align: end;
+    margin: 0;
+}
+
+.header-heading span {
+    font-size: 30px;
+    font-weight: 400;
+    
+}
+
+.header-heading p {
+    color:#707070;
+}
+
+
+.header-content p {
+    line-height: 1;
+    font-size: 25px;
+    font-family: "Comfortaa";
+    position: relative;
+    z-index: 9999;
+    color:#707070;
+}
+
+.header-hero {
+    z-index: 1;
+    position: relative;
+}
+
+.gray_circle {
+    position: absolute;
+    top: -50px;
+    right: 35px;
+}
+.yellow_circle {
+    position: absolute;
+    top: 0;
+    right: 90px;
+}
+.andrey_img{
+    position: absolute;
+    top: 0;
+    right: 35px;
+}
+
+/* Header content end */
+
+/* intro */
+
+.intro {
+    padding: 180px 0 85px;
+    background-color: #E5E6E5;
+}
+
+ h2 {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Arsenal";
+    text-align: center;
+    margin: 0;
+}
+
+.intro-info {
+    margin:110px auto 0;
+    max-width: 823px;
+    height: 335px;
+    background-color: #FBD242;
+    display: flex;
+    /* justify-content: ; */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    align-items: center;
+    
+}
+.intro-image {
+    display: block;
+    margin-left: -140px;
+    
+}
+.intro-text {
+    max-width: 315px;
+    box-sizing: border-box;
+    color: #000;
+    font-family: "Comfortaa";
+    font-weight: 700;
+}
+
+/* cards */
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 90px auto 0;
+    max-width: 950px;
+    gap: 35px;
+  }
+  
+  .card {
+    width: 200px;
+    height: 130px;
+    margin-bottom: 35px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* padding: 10px; */
+    }
+    
+    .card-header img {
+    width: 20px;
+    height: 20px;
+    }
+    
+    .card-body {
+    padding-left: 15px;
+    padding-right: 15px;
+    }
+    
+    .card-body p {
+    font-size: 14px;
+    /* line-height: 1.5; */
+    margin: 0;
+    font-family: "Comfortaa";
+    }
+    
+    /* line */
+
+    .line {
+        border: 1px solid #000; /* Задаем линию сверху блока */
+        margin: 90px auto 0;
+        width: 520px;
+        
+      }
+
+      /* project */
+
+        .project {
+            padding: 50px 0 100px;
+            background-color: #E5E6E5;
+            position: relative;
+            /* height: 100%; */
+            
+            background-image: url(../img/lemons/Rectangle\ 63.png);
+            background-repeat: no-repeat;
+            background-size: contain ;
+            background-position: center;
+            
+        }
+
+        .project-content {
+            max-width: 950px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: center ;
+            gap: 100px;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 50px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .project-content p {
+            max-width: 320px;
+            font-size: 19px;
+            font-family: "Comfortaa";
+            font-weight: 700;
+            line-height: 1.5;
+            color: #000;
+            margin-top: 0;
+        }
+
+        .project-btn {
+            background-color: initial;
+            border: initial;
+            display: block;
+            background-color: #FBD242;
+            padding: 12px 40px 12px 40px;
+            border-radius: 10px;
+            color: #000;
+            text-decoration: none;
+            width: 210px;
+            margin-top: 25px;
+            z-index: 9999;  
+        }
+
+        /* contacts */
+
+        .contact-content {
+            max-width: 950px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around ;
+            gap: 100px;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 80px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .contact-form {
+            max-width: 320px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 60px;
+        }
+
+         .contact-form form {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;    
+            gap: 20px;
+            margin-top: -35px;
+         }
+
+        .contact-form input {
+            width: 320px;
+            padding: 10px 20px;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 200;
+            outline: none;
+            background-color: #DAD7D7;
+            border: none;
+        }
+
+        .contact-img {
+            background-color: #FBD242;
+            overflow: hidden;
+            border-radius: 90px;
+            background-size: 100%;
+            height: 280px;
+            
+        }
+
+
+        footer {
+            display: flex;
+            justify-content: space-evenly;
+            gap: 100px;
+            padding: 20px;
+            max-width: 950px;
+            margin: 100px auto;
+          }
+          
+          .footer-block {
+            /* width: 30%; */
+       
+          }
+          
+          .social-media ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            gap:25px;
+          }
+          .footer-block h3 {
+            font-family: "Arsenal";
+          }
+          
+          .social-media li {
+            margin-bottom: 5px;
+          }
+          
+          .social-media a {
+            color: #333;
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-bottom-color 0.2s ease-in-out;
+          }
+          
+          .social-media a:hover {
+            border-bottom-color: #333;
+          }
+          
+          .contacts ul {
+            list-style: none;
+            padding: 0;
+          }
+          
+          .contacts li {
+            margin-bottom: 5px;
+          }
+          
+          .email p {
+            margin: 0;
+          }
+          
+          .email a {
+            color: #333;
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-bottom-color 0.2s ease-in-out;
+          }
+          
+          .email a:hover {
+            border-bottom-color: #333;
+          }
